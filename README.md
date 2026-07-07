@@ -110,7 +110,7 @@ The investigation identified:
 
 ---
 
-## Screenshots
+## Dashboard Screenshots
 
 ### Dashboard Overview (1)
 ![Dashboard Overview 1](Screenshots/dashboard-overview-1.png)
@@ -123,6 +123,69 @@ The investigation identified:
 
 ---
 
+## SPL Queries
+
+Below are the representative SPL queries used to build the dashboard visualization and support threat hunting activities.
+
+### Attack Category Distribution
+![Attack Category Distribution](Screenshots/spl-attack-category-distribution.png)
+
+### Transaction Type Distribution
+![Transaction Type Distribution](Screenshots/spl-transaction-type-distribution.png)
+
+### Top Active Users
+![Top Active Users](Screenshots/spl-top-active-users.png)
+
+### Suspicious IP Addresses
+![Suspicious IP Addresses](Screenshots/spl-suspicious-ip-addresses.png)
+
+### Threat Activity Timeline
+![Threat Activity Timeline](Screenshots/spl-threat-activity-timeline.png)
+
+### Threat Type Analysis
+![Threat Type Analysis](Screenshots/spl-threat-type-analysis.png)
+
+### Top High-Risk Users
+![Top High-Risk Users](Screenshots/spl-top-high-risk-users.png)
+
+### Repeated Suspicious IP Activity
+![Repeated Suspicious IP Activity](Screenshots/spl-repeated-suspicious-ip-activity.png)
+
+### Trasaction Status Overview
+![Transaction Status Overview](Screenshots/spl-transaction-status-overview.png)
+
+---
+
+## Repository Structure
+
+```text
+FinTech-Threat-Monitoring-Splunk/
+│
+├── README.md
+└── Screenshots/
+    ├── dashboard-overview-1.png
+    ├── dashboard-overview-2.png
+    ├── dashboard-overview-3.png
+    ├── spl-attack-category-distribution.png
+    ├── spl-transaction-type-distribution.png
+    ├── spl-top-active-users.png
+    ├── spl-suspicious-ip-addresses.png
+    ├── spl-threat-activity-timeline.png
+    ├── spl-threat-type-analysis.png
+    ├── spl-top-high-risk-users.png
+    ├── spl-repeated-suspicious-ip-activity.png
+    └── spl-transaction-status-overview.png
+
+```
+
+## Conclusion
+
+This project demonstrates how Splunk Enterprise can be used to investigate suspicious financial transactions, identify fraud indicators, and support security operations within a simulated FinTech environment.
+
+Through dashboard visualizations, SPL queries, and threat hunting techniques, the investigation highlighted suspicious IP activity, phishing-related account compromise, transaction structuring, and high-risk user behavior. The project reinforces practical SIEM investigation skills and demonstrates the value of data-driven security monitoring and incident analysis.
+
+---
+
 ## Future Improvements
 
 - Integrate additional threat intelligence feeds.
@@ -132,6 +195,13 @@ The investigation identified:
 
 ---
 
+## Acknowledgements
+
+This project was developed as part of my cybersecurity learning journey to strengthen my practical skills in SIEM monitoring, threat hunting, SPL query development, and security investigations using Splunk Enterprise.
+
+Special appreciation to the cybersecurity learning resources, labs, and mentors that provided guidance and hands-on experience throughout the development of this project.
+
+---
 ## Author
 
 Ademuyiwa Yinus
