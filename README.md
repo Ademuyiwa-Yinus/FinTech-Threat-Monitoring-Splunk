@@ -206,4 +206,4 @@ Special appreciation to the cybersecurity learning resources, labs, and mentors 
 
 Ademuyiwa Yinus
 
-Aspiring SOC Analyst | SIEM | Splunk | Threat Hunting | Cybersecurity
+Entry-Level SOC Analyst | SIEM | Splunk | Threat Hunting | Cybersecurity
