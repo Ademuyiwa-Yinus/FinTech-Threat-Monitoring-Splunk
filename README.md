@@ -1,8 +1,7 @@
-FinTech Threat Monitoring & Suspicious Transaction Investigation
+## FinTech Threat Monitoring & Suspicious Transaction Investigation
 
 ---
-Project Overview
-
+## Project Overview
 
 This project demonstrates the use of Splunk Enterprise as a Security Information and Event Management (SIEM) platform to investigate suspicious financial transactions and identify indicators of fraudulent activity within a simulated FinTech environment.
 
@@ -10,116 +9,131 @@ The investigation focuses on detecting suspicious IP addresses, phishing-related
 
 ---
 
-Objectives
+## Objectives
 
-Investigate suspicious transaction activities.
-Detect indicators of financial fraud.
-Identify suspicious IP addresses.
-Monitor high-risk users.
-Visualize security events using Splunk dashboards.
-Perform threat hunting using SPL queries.
-
----
-
-Tools Used
-
-Splunk Enterprise
-Kali Linux
-Oracle VirtualBox
-Search Processing Language (SPL)
-CSV Transaction Dataset
+- Investigate suspicious transaction activities.
+- Detect indicators of financial fraud.
+- Identify suspicious IP addresses.
+- Monitor high-risk users.
+- Visualize security events using Splunk dashboards.
+- Perform threat hunting using SPL queries.
 
 ---
 
-Lab Environment
+## Tools Used
 
-Component	                      Technology
-Operating System	              Kali Linux
-SIEM Platform	                  Splunk Enterprise
-Virtualization	                Oracle VirtualBox
-Dataset                        	CSV Transaction Logs
+- Splunk Enterprise
+- Kali Linux
+- Oracle VirtualBox
+- Search Processing Language (SPL)
+- CSV Transaction Dataset
 
 ---
 
-Dataset Overview
+## Lab Environment
+
+| Component	         |          Technology |
+|--------------------|---------------------|
+| Operating System	 |          Kali Linux |
+| SIEM Platform	     |          Splunk Enterprise |
+| Virtualization	   |          Oracle VirtualBox |
+| Dataset            |          CSV Transaction Logs |
+
+---
+
+## Dataset Overview
 
 The dataset includes transaction records containing:
 
-User ID
-IP Address
-Device ID
-Transaction Type
-Transaction Status
-Timestamp
-Threat Flags
-Analyst Notes
+- User ID
+- IP Address
+- Device ID
+- Transaction Type
+- Transaction Status
+- Timestamp
+- Threat Flags
+- Analyst Notes
 
 ---
 
-Dashboard Features
+## Dashboard Features
 
 The Splunk dashboard provides visualizations for:
 
-Attack Category Distribution
-Transaction Type Distribution
-Top 10 Active Users
-Suspicious IP Addresses
-Threat Activity Timeline
-Threat Type Analysis
-Top High-Risk Users
-Repeated Suspicious IP Activity
-Transaction Status Overview
+- Attack Category Distribution
+- Transaction Type Distribution
+- Top 10 Active Users
+- Suspicious IP Addresses
+- Threat Activity Timeline
+- Threat Type Analysis
+- Top High-Risk Users
+- Repeated Suspicious IP Activity
+- Transaction Status Overview
 
 ---
 
-Key Findings
+## Key Findings
 
 The investigation identified:
 
-Possible transaction structuring below reporting thresholds.
-Repeated suspicious IP addresses.
-Indicators of phishing-related account compromise.
-Coordinated Midnight Swap attack activity.
-High-risk users requiring further investigation.
+- Possible transaction structuring below reporting thresholds.
+- Repeated suspicious IP addresses.
+- Indicators of phishing-related account compromise.
+- Coordinated Midnight Swap attack activity.
+- High-risk users requiring further investigation.
 
 ---
 
-Skills Demonstrated
+## Skills Demonstrated
 
-SIEM Monitoring
-Threat Hunting
-SPL Query Development
-Fraud Detection
-Log Analysis
-Dashboard Visualization
-Detection Engineering
-Incident Investigation
-Threat Correlation
-SOC Reporting
-
----
-
-Recommendations
-Configure real-time alerts for suspicious activities.
-Enable Multi-Factor Authentication (MFA).
-Investigate repeated suspicious IP addresses.
-Monitor high-risk users continuously.
-Improve transaction monitoring rules.
-Update SPL detections to identify emerging attack techniques.
+- SIEM Monitoring
+- Threat Hunting
+- SPL Query Development
+- Fraud Detection
+- Log Analysis
+- Dashboard Visualization
+- Detection Engineering
+- Incident Investigation
+- Threat Correlation
+- SOC Reporting
 
 ---
 
-Screenshots
+## Recommendations
 
+- Configure real-time alerts for suspicious activities.
+- Enable Multi-Factor Authentication (MFA).
+- Investigate repeated suspicious IP addresses.
+- Monitor high-risk users continuously.
+- Improve transaction monitoring rules.
+- Update SPL detections to identify emerging attack techniques.
 
+---
 
-Future Improvements
-Integrate additional threat intelligence feeds.
-Automate alerting for critical threats.
-Expand detection rules to cover more attack scenarios.
-Develop advanced risk scoring for users and transactions.
-Author
+## Screenshots
 
-Ademuyiwa
+### Dashboard Overview (1)
+![Dashboard Overview 1](Screenshots/dashboard-overview-1.png)
+
+### Dashboard Overview (2)
+![Dashboard Overview 2](Screenshots/dashboard-overview-2.png)
+
+### Dashboard Overview (3)
+![Dashboard Overview 3](Screenshots/dashboard-overview-3.png)
+
+---
+
+## Future Improvements
+
+- Integrate additional threat intelligence feeds.
+- Automate alerting for critical threats.
+- Expand detection rules to cover more attack scenarios.
+- Develop advanced risk scoring for users and transactions.
+
+---
+
+## Author
+
+Ademuyiwa Yinus
 
 Aspiring SOC Analyst | SIEM | Splunk | Threat Hunting | Cybersecurity
